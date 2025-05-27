@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+class Distance {
+public:
+    int meters;
+
+    Distance(int m = 0)
+    {
+        meters = m;
+    }
+    Distance operator+(const Distance &d)
+    {
+        return Distance(meters + d.meters);
+    }
+    
+    void display()
+    {
+        cout << "Distance: " << meters << " meters" << endl;
+    }
+    
+};
+
+int main()
+{
+    Distance d1(10);
+    Distance d2(20);
+    
+    Distance d3 = d1 + d2; // Using the overloaded + operator
+    
+    d3.display(); // Output: Distance: 30 meters
+    
+    return 0;
+}
