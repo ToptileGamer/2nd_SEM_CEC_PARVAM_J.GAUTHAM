@@ -15,6 +15,6 @@ int main()
 {
     Dog *d = new Dog(); 
     d->bark();
-    delete d; 
+    delete d;
     return 0;
 }

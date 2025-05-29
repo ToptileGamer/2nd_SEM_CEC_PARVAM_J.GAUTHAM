@@ -1,39 +1,54 @@
-#include<iostream>
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+
 using namespace std;
 
-int main()
-{
-    int n;
-    int s = 3; // Assuming s is the number of shifts
-    cout << "Welcome to Employee Shift Management System" << endl;
-    cout << "---------------------------------------------" << endl;
-    cout << "Enter number of employee: ";
-    cin >> n;
+struct Employee {
+    string name;
+    string shift;
+    double salary;
+};
 
+int main() {
+    int numEmployees;
+    cout << "Enter the number of employees checked in today: ";
+    cin >> numEmployees;
 
+    vector<Employee> employees(numEmployees);
 
-    string *employees = new string[n]; 
-    string *shifts= new string[s];
-
-    for(int i = 0; i < n; i++)
-    {
-        cout << "Enter employee name " << (i + 1) << ": ";
-        cin >> employees[i];
+    for (int i = 0; i < numEmployees; ++i) {
+        cout << "\nEnter details for employee " << i + 1 << ":" << endl;
+        cout << "Name: ";
+        cin >> employees[i].name;
+        cout << "Shift (Morning, Afternoon, Night): ";
+        cin >> employees[i].shift;
+        cout << "Salary: ";
+        cin >> employees[i].salary;
     }
 
-    cout << "Employee names are: " << endl;
-    for(int i = 0; i < n; i++)
-    {
-        cout << (i +1) << "." << employees[i] << endl;
+    cout << "\n--- Employee List ---" << endl;
+    for (const auto& employee : employees) {
+        cout << "Name: " << employee.name 
+             << ", Shift: " << employee.shift 
+             << ", Salary: " << employee.salary << endl;
     }
 
-    cout << "Enter shift names: " << endl;
-    for(int j = 0; j < s; j++)
-    {
-        cout << "Enter shift name " << (j + 1) << ": ";
-        cin >> shifts[j];
+    map<string, int> shiftCounts;
+    map<string, double> shiftSalaries;
+
+    for (const auto& employee : employees) {
+        shiftCounts[employee.shift]++;
+        shiftSalaries[employee.shift] += employee.salary;
     }
 
-    delete[] employees; 
+    cout << "\n--- Shift Summary ---" << endl;
+    for (const auto& pair : shiftCounts) {
+        cout << "Shift: " << pair.first 
+             << ", Count: " << pair.second 
+             << ", Total Salary: " << shiftSalaries[pair.first] << endl;
+    }
+
     return 0;
 }
