@@ -1,0 +1,111 @@
+
+--- New Registration ---
+Full Name: gautham
+Father's Name: jayaraj
+DOB: 02062233
+Gender: mail
+Category: sc
+Qualification: B.ED
+Email: aiofhodshf
+Phone: 65465654
+ID Type: adhar
+ID Number: 84651651
+Paper Choice: Both
+Language: English
+---------------------------
+
+--- New Registration ---
+Full Name: john
+DOB: 01021990
+Gender: M
+Qualification: B.Ed
+Email: john123@gmail.com
+Phone: 9658745896
+ID Type: Aadhar
+ID Number: 254789652345
+Paper Choice: Both
+Language: English
+---------------------------
+
+--- New Registration ---
+Full Name: john
+DOB: 01022006
+Gender: M
+Qualification: B.Ed
+Email: difjg@gmail.com
+Phone: 1458965239
+ID Type: Adhar
+ID Number: 365874523698
+Paper Choice: paper I
+Language: English
+---------------------------
+
+--- New Registration ---
+Full Name: mas
+DOB: 01022005
+Gender: M
+Experience: 2
+Qualification: B.Ed
+Email: awerfg@gmail.com
+Phone: 8569745698
+ID Type: Aadhar
+ID Number: 147896523685
+Paper Choice: paper I
+Language: English
+---------------------------
+
+--- New Registration ---
+Full Name: masa
+DOB: 14122005
+Gender: M
+Experience: 7
+Qualification: D.El.Ed
+Email: iufh@gmail.com
+Phone: 4785698547
+ID Type: PAN
+ID Number: amkpo5896H
+Paper Choice: Paper II
+Language: Hindi
+---------------------------
+
+--- New Registration ---
+Full Name: musa
+DOB: 2492025
+Gender: M
+Experience: 12
+Qualification: MSC
+Email: masa@gmail.com
+Phone: 981254578563
+ID Type: Aadhar
+ID Number: 145896325741
+Paper Choice: Both
+Language: English
+---------------------------
+
+--- New Registration ---
+Full Name: pavam
+DOB: 85965639
+Gender: F
+Experience: 8
+Qualification: D.El.Ed
+Email: efgh@gmail.com
+Phone: 1458963256
+ID Type: PAN
+ID Number: LOOHY4785C
+Paper Choice: Paper II
+Language: English
+---------------------------
+
+--- New Registration ---
+Full Name: soma
+DOB: 14523366
+Gender: F
+Experience: 3
+Qualification: B.Ed
+Email: sifh@gmail.com
+Phone: 9658742365
+ID Type: Aadhar
+ID Number: 147852369852
+Paper Choice: Paper I
+Language: English
+---------------------------
